@@ -14,3 +14,5 @@ Desktop application that allows users to import files (*.csv files and *.png, *.
 - `Exit` button which stops and exits the GUI application
 
 ![image](https://github.com/af4092/CSV-to-DOCX-Converter/assets/24220136/a86bd5d0-0a3d-4383-8b7a-546fed7fe6da)
+
+- Demo video shows the simulation of importing several files and clear them from the local directory, lastly shows the importing image and moving it to word:
