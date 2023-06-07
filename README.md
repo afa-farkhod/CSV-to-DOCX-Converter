@@ -15,6 +15,19 @@ Desktop application that allows users to import files (*.csv files and *.png, *.
 
 ![image](https://github.com/af4092/CSV-to-DOCX-Converter/assets/24220136/a86bd5d0-0a3d-4383-8b7a-546fed7fe6da)
 
+- The code is organized in the package com.example.csvtodocxconverter;
+- The main class is called UI, representing the user interface of the application.
+- The UI class extends the javafx.application.Application class, which is the base class for JavaFX applications.
+- The class defines various instance variables that hold references to UI components such as the stage, file chooser, labels, buttons, and a backend object.
+- The class contains constructors that initialize the instance variables and set up event handlers for the buttons.
+- The `show()` method sets up the user interface layout using a vertical box (VBox) container and displays it in the application window.
+- The class provides methods for importing files, both CSV files (importFile()) and images (importImage()), and displaying the selected file paths in the UI.
+- The `convertToDOCX()` method converts the selected files to the DOCX format, either by utilizing the backend object's convertToDOCX() method or by converting image files to DOCX using Apache POI.
+- The `downloadDOCX()` method allows users to download the converted DOCX files by opening them with the default system application.
+- The `clearConvertedFiles()` method deletes the converted DOCX files from the system and clears the list of converted file paths.
+- The `start()` method is the entry point of the JavaFX application and initializes the application window, backend object, and user interface.
+- The `main()` method launches the JavaFX application.
+
 - Demo video shows the simulation of importing several files and clear them from the local directory, lastly shows the importing image and moving it to word:
 
 https://github.com/af4092/CSV-to-DOCX-Converter/assets/24220136/e090273e-a3df-4e51-9f3a-8c9ec7db9d80
