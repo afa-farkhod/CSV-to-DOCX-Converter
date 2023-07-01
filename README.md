@@ -32,3 +32,6 @@ Desktop application that allows users to import files (`*.csv` files and `*.png`
 
 https://github.com/af4092/CSV-to-DOCX-Converter/assets/24220136/e090273e-a3df-4e51-9f3a-8c9ec7db9d80
 
+---------------------
+
+![image](https://github.com/af4092/CSV-to-DOCX-Converter/assets/24220136/a2df200e-8ae7-41d3-ac55-dcfa25d88cd5)
