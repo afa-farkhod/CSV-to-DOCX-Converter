@@ -4,7 +4,9 @@ Desktop application that allows users to import files (`*.csv` files and `*.png`
 - [Filestart.com](https://filestar.com/skills/csv/convert-csv-to-docx) - Filestar is a desktop application that runs on both Windows and OSX, ensuring that you can use it no matter what operating system you prefer. The software is perfect for professionals who need to convert data into professional-looking documents, such as reports, invoices, and proposals.
 - Main architecture, GUI allows users to import files (including CSV files and images), convert them to DOCX format, and download the converted files.
 
-![image](https://github.com/af4092/CSV-to-DOCX-Converter/assets/24220136/7aefc5b9-f253-4726-aff3-ac9022abedb5)
+<p align="center">
+  <img src="https://github.com/af4092/CSV-to-DOCX-Converter/assets/24220136/7aefc5b9-f253-4726-aff3-ac9022abedb5" alt="Image">
+</p>
 
 - JavaFX framework based desktop application main view:
   -  UI elements and Backend functions are separated.
@@ -14,7 +16,9 @@ Desktop application that allows users to import files (`*.csv` files and `*.png`
   - `CLEAR` button clears the local directory from created files
   - `Exit` button which stops and exits the GUI application
 
-![image](https://github.com/af4092/CSV-to-DOCX-Converter/assets/24220136/a86bd5d0-0a3d-4383-8b7a-546fed7fe6da)
+<p align="center">
+  <img src="https://github.com/af4092/CSV-to-DOCX-Converter/assets/24220136/a86bd5d0-0a3d-4383-8b7a-546fed7fe6da" alt="Image">
+</p>
 
 - The code is organized in the following package `com.example.csvtodocxconverter`;
 - The main class is called UI, representing the user interface of the application.
