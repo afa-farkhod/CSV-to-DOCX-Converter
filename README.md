@@ -27,7 +27,7 @@ Desktop application that allows users to import files (`*.csv` files and `*.png`
 - The class contains constructors that initialize the instance variables and set up event handlers for the buttons.
 - The `show()` method sets up the user interface layout using a vertical box (VBox) container and displays it in the application window.
 - The class provides methods for importing files, both CSV files (importFile()) and images (importImage()), and displaying the selected file paths in the UI.
-- The `convertToDOCX()` method converts the selected files to the DOCX format, either by utilizing the backend object's convertToDOCX() method or by converting image files to DOCX using Apache POI.
+- The `convertToDOCX()` method converts the selected files to the DOCX format, either by utilizing the backend object's `convertToDOCX()` method or by converting image files to DOCX using Apache POI.
 - The `downloadDOCX()` method allows users to download the converted DOCX files by opening them with the default system application.
 - The `clearConvertedFiles()` method deletes the converted DOCX files from the system and clears the list of converted file paths.
 - The `start()` method is the entry point of the JavaFX application and initializes the application window, backend object, and user interface.
