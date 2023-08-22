@@ -33,6 +33,6 @@ Desktop application that allows users to import files (`*.csv` files and `*.png`
 - The `start()` method is the entry point of the JavaFX application and initializes the application window, backend object, and user interface.
 - The `main()` method launches the JavaFX application.
 
-- Demo video shows the simulation of importing several files and clear them from the local directory, lastly shows the importing image and moving it to word:
+- Demo video shows the simulation of importing several files and clear them from the local directory, lastly it shows importing image and moving it to word file:
 
 https://github.com/af4092/CSV-to-DOCX-Converter/assets/24220136/e090273e-a3df-4e51-9f3a-8c9ec7db9d80
